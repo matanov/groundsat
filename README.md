@@ -14,7 +14,7 @@ Pick from about 17,000 satellites (weather, Earth observation, CubeSats, amateur
 [![All ICEYE satellites over KSAT Svalbard](screenshots/demo-iceye.png)](https://groundsat.com/#sats=43800,44390,46496,46497,56963,58288,58302,59100,59102,59103,60539,60546,60548,60549,62384,62389,62698,62700,62705,62707,63253,63255,63257,63258,64570,64572,64574,64578,64581,64584,66300,66301,66302,66751,66752,66753,66754,66755,67372,67373,68494,68496,68497,68500,68502,68504,68995,68996,69870,69889,69892,69893,100889,100894,100910,100914&gs=78.229,15.408,500,5,,,ag:ksat-svalbard)
 *Demo: all 56 ICEYE satellites over KSAT's Svalbard station.*
 
-[![Video: the ICEYE constellation over Svalbard, with time sped up](screenshots/demo-video.jpg)](media/demo-iceye-svalbard.mp4)
+[![Video: the ICEYE constellation over Svalbard, with time sped up](screenshots/demo-video.jpg)](https://groundsat.com/media/demo-iceye-svalbard.mp4)
 *The same view in motion: time sped up, passes moving along the timeline (28 s, 4.6 MB, no sound).*
 
 <p align="center">
