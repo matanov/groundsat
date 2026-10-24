@@ -91,7 +91,7 @@ No account is needed: what you add is saved in your browser. Signing in (optiona
 
 ## Data and credits
 
-Orbital elements from [CelesTrak](https://celestrak.org), refreshed every 6 hours. Transmitters and stations from [SatNOGS](https://satnogs.org) (CC BY-SA 4.0). Agency and commercial stations from their operators' published pages, cited per station. Maps: Natural Earth, NASA Blue Marble, shadedrelief.com. Globe: [CesiumJS](https://cesium.com/platform/cesiumjs/).
+Orbital elements from [CelesTrak](https://celestrak.org), refreshed every 6 hours. Transmitters and stations from [SatNOGS](https://satnogs.org) (CC BY-SA 4.0). Agency and commercial stations from their operators' published pages, cited per station. Maps: world shaded relief by Tom Patterson ([shadedrelief.com](https://www.shadedrelief.com), public domain), Blue Marble Next Generation imagery courtesy of NASA, and [Natural Earth](https://www.naturalearthdata.com) (public domain). Globe: [CesiumJS](https://cesium.com/platform/cesiumjs/).
 
 The full user guide is the [manual](https://groundsat.com/manual).
 
