@@ -1,0 +1,11 @@
+name: Idea
+description: Something Groundsat could do.
+labels: [idea]
+body:
+  - type: textarea
+    id: idea
+    attributes:
+      label: The idea
+      description: What would you like to do, and what for? A use case helps more than a solution.
+    validations:
+      required: true

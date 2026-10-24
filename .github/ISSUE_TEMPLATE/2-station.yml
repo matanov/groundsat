@@ -1,0 +1,26 @@
+name: Wrong or missing ground station
+description: A station's position, dishes, bands or operator are wrong, or a station is missing.
+labels: [station data]
+body:
+  - type: input
+    id: station
+    attributes:
+      label: Station
+      description: Name as shown in Groundsat, or the site and operator if it's missing.
+      placeholder: Svalbard (SvalSat), KSAT
+    validations:
+      required: true
+  - type: textarea
+    id: wrong
+    attributes:
+      label: What's wrong or missing
+      placeholder: The 13 m dish also receives Ka band; position is about 2 km off…
+    validations:
+      required: true
+  - type: textarea
+    id: source
+    attributes:
+      label: Source
+      description: Every station value in Groundsat cites a public source; please link one (operator page, agency document, paper).
+    validations:
+      required: true

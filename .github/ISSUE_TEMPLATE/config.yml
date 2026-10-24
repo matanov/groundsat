@@ -1,0 +1,8 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Question or discussion
+    url: https://github.com/matanov/groundsat/discussions
+    about: How do I…?, ideas to talk through, show what you built with it.
+  - name: Manual
+    url: https://groundsat.com/manual
+    about: How to use Groundsat and how it works.

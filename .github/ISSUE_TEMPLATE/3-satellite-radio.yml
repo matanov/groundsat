@@ -1,0 +1,33 @@
+name: Satellite radio details
+description: You know a satellite's downlink (frequency, mode, power, antenna gain) that Groundsat doesn't list.
+labels: [radio data]
+body:
+  - type: input
+    id: sat
+    attributes:
+      label: Satellite
+      description: Name and NORAD number.
+      placeholder: ICEYE-X7, 46496
+    validations:
+      required: true
+  - type: textarea
+    id: downlink
+    attributes:
+      label: Downlink
+      description: Whatever you know; leave out what you don't.
+      value: |
+        Frequency (MHz):
+        Mode / modulation:
+        Data rate:
+        Transmit power (W):
+        Antenna gain (dBi):
+        Required Eb/N0 (dB):
+    validations:
+      required: true
+  - type: textarea
+    id: source
+    attributes:
+      label: Source
+      description: A public filing (e.g. ITU or FCC), datasheet, paper or operator page. Groundsat's transmitter list comes from SatNOGS; adding the downlink there helps everyone too.
+    validations:
+      required: true

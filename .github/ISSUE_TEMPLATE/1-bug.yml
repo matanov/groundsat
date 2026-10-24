@@ -1,0 +1,27 @@
+name: Bug
+description: Something doesn't work or looks wrong.
+labels: [bug]
+body:
+  - type: textarea
+    id: what
+    attributes:
+      label: What happened
+      description: What you did, what you expected, and what you saw instead.
+    validations:
+      required: true
+  - type: input
+    id: link
+    attributes:
+      label: Link to the view
+      description: Share → Copy link in Groundsat gives a link that opens exactly what you had on screen. It contains your selected satellites and stations (and notes, if ticked), so leave it out if that's private.
+      placeholder: https://groundsat.com/#scn=…
+  - type: input
+    id: browser
+    attributes:
+      label: Browser and device
+      placeholder: Chrome 130 on a MacBook Air
+  - type: textarea
+    id: more
+    attributes:
+      label: Anything else
+      description: Screenshots help. Paste or drag them here.
