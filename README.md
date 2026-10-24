@@ -14,9 +14,10 @@ Pick from about 17,000 satellites (weather, Earth observation, CubeSats, amateur
 [![All ICEYE satellites over KSAT Svalbard](screenshots/demo-iceye.png)](https://groundsat.com/#sats=43800,44390,46496,46497,56963,58288,58302,59100,59102,59103,60539,60546,60548,60549,62384,62389,62698,62700,62705,62707,63253,63255,63257,63258,64570,64572,64574,64578,64581,64584,66300,66301,66302,66751,66752,66753,66754,66755,67372,67373,68494,68496,68497,68500,68502,68504,68995,68996,69870,69889,69892,69893,100889,100894,100910,100914&gs=78.229,15.408,500,5,,,ag:ksat-svalbard)
 *Demo: all 56 ICEYE satellites over KSAT's Svalbard station.*
 
-<a href="https://groundsat.com/#sats=43800,44390,46496,46497,56963,58288,58302,59100,59102,59103,60539,60546,60548,60549,62384,62389,62698,62700,62705,62707,63253,63255,63257,63258,64570,64572,64574,64578,64581,64584,66300,66301,66302,66751,66752,66753,66754,66755,67372,67373,68494,68496,68497,68500,68502,68504,68995,68996,69870,69889,69892,69893,100889,100894,100910,100914&gs=78.229,15.408,500,5,,,ag:ksat-svalbard"><img src="screenshots/demo-iceye-phone.png" width="260" alt="The same ICEYE view on a phone: the globe full screen and the passes in a sheet below"></a>
-
-*The same view on a phone: the globe full screen, passes in a sheet you drag up. On phones Groundsat is for looking; editing works on a larger screen.*
+<p align="center">
+  <a href="https://groundsat.com/#sats=43800,44390,46496,46497,56963,58288,58302,59100,59102,59103,60539,60546,60548,60549,62384,62389,62698,62700,62705,62707,63253,63255,63257,63258,64570,64572,64574,64578,64581,64584,66300,66301,66302,66751,66752,66753,66754,66755,67372,67373,68494,68496,68497,68500,68502,68504,68995,68996,69870,69889,69892,69893,100889,100894,100910,100914&gs=78.229,15.408,500,5,,,ag:ksat-svalbard"><img src="screenshots/demo-iceye-phone.png" width="260" alt="The same ICEYE view on a phone: the globe full screen and the passes in a sheet below"></a><br>
+  <em>The same view on a phone: the globe full screen, passes in a sheet you drag up. On phones Groundsat is for looking; editing works on a larger screen.</em>
+</p>
 
 ### Use real stations, or describe your own
 Over 600 active SatNOGS stations, 25 agency sites (ESA, NASA, JAXA, ISRO…) and about 150 commercial ones (KSAT, SSC, AWS, Leaf Space, ATLAS…), with their dishes and bands. Or save your own station and say exactly what it receives: whole bands or frequency ranges, each with its dish or antenna, LNA noise figure and line loss, or a measured G/T.
