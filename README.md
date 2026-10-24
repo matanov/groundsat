@@ -31,8 +31,8 @@ Every term for a satellite and a station, now or at the next pass's peak: EIRP, 
 [![METEOR-M2 3's X-band link budget over ESA Kiruna](screenshots/demo-agency.png)](https://groundsat.com/#sats=44714,44057,100914,42063,57166,33591&gs=67.85713,20.96432,402,5,,,ag:esa-kiruna;35.4259,-116.88954,1001,5,,,ag:nasa-goldstone;-25.887,27.712,1545,5,,,ag:sansa-hartebeesthoek;-35.40242,148.98127,689,5,,,ag:nasa-canberra&tx=57166:8128000000:FM,33591:2247500000:BPSK&focus=57166)
 *Demo: six satellites over ESA Kiruna, NASA Goldstone, Hartebeesthoek and Canberra, with METEOR-M2 3's X-band budget (open **Link budget** in the satellite panel).*
 
-### "Can I hear anything from it?"
-Satellites often transmit in several bands. Each station budgets the downlink it can actually receive, or, in *any downlink* mode, every downlink it can receive (data, TT&C, beacons), counting the best.
+### "Can I work this satellite?"
+Satellites often transmit in several bands. By default each station budgets every downlink it can actually receive (payload data and TT&C, which is real data and often the easiest thing to catch) and counts the best; beacons are left out, because a bare carrier closes almost anywhere. You can switch to one chosen downlink, or to *anything, beacons too*. When a satellite's passes stay grey, Groundsat says why: no downlinks listed, no station that receives its bands, only a beacon in reach, or not enough margin with the assumed values.
 
 ### Share a scenario
 One link carries what's on screen (satellites, your stations and their bands, your downlinks, the time and the camera) and each satellite's orbit as it was. The recipient can watch it with today's orbits or **replay it exactly as sent**, and save what they like. Signed in, you get short links too.
