@@ -86,6 +86,8 @@ flowchart TB
 - **Cloudflare serves it.** The site is static files on Cloudflare's network (Workers static assets). A small Cloudflare Worker answers only the optional account requests: signing in, saving your items, and short scenario links. It runs only for those, with rate limits.
 - **D1 holds accounts.** Cloudflare's SQLite database stores, for signed-in users only, their email address, their saved items and their short links. A daily scheduled task deletes expired sessions and links.
 - **Google, only for sign-in.** "Sign in with Google" uses the standard OpenID Connect flow; Groundsat asks Google for your email address and nothing else.
+- **Light to load.** A first visit downloads about **3 MB** (compressed): the app and the globe engine (~2.3 MB), the satellite index and stations (~0.3 MB), and only the map tiles in view. Satellite orbits come in 32 small shards, fetched only for the satellites you look at: 56 ICEYE satellites add about 1 MB. Coming back costs only a few tens of KB, because the app code is cached for a year and everything else is just checked for changes; new orbital data arrives when it's refreshed.
+- **Made for phones too.** On a phone the layout changes: the globe fills the screen, time and speed sit in a slim bar, and the pass timeline, satellite details and stations live in a sheet you drag up from the bottom. Phones are for looking at shared views and scenarios; adding and editing stay on larger screens.
 - **Works without the back end.** Everything except accounts runs from the static files alone, so a copy of the site works on a network with no internet; sign-in simply doesn't appear there.
 
 The diagram is [Mermaid](https://mermaid.js.org) text in this README: edit it like any other text and GitHub redraws it.
