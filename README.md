@@ -37,6 +37,13 @@ Satellites often transmit in several bands. By default each station budgets ever
 ### Share a scenario
 One link carries what's on screen (satellites, your stations and their bands, your downlinks, the time and the camera) and each satellite's orbit as it was. The recipient can watch it with today's orbits or **replay it exactly as sent**, and save what they like. Signed in, you get short links too.
 
+### Use it without internet
+A standalone copy runs on any computer with [Node.js](https://nodejs.org) and nothing else: no install, no internet, nothing sent anywhere.
+
+1. Download **[groundsat-standalone.zip](https://github.com/matanov/groundsat/releases/download/standalone/groundsat-standalone.zip)**, unzip it, and double-click `Groundsat.cmd` (on macOS or Linux: `node serve.mjs`).
+2. Bring the newest data with you: **[groundsat-catalog.json](https://github.com/matanov/groundsat/releases/download/data/groundsat-catalog.json)** (orbits and transmitters, ~8 MB) and **[groundsat-stations.json](https://github.com/matanov/groundsat/releases/download/data/groundsat-stations.json)** (ground stations), refreshed about every 6 hours.
+3. In Groundsat, **Data → import** both files. To update later, import newer ones; your own stations, satellites and notes stay. **Export workspace** saves everything in one file to move or back up.
+
 ## How accurate is it?
 
 - **Orbits:** SGP4/SDP4, the standard model for public orbital elements, via [satellite.js](https://github.com/shashwatak/satellite-js). Checked against Vallado's official SGP4 verification set: 32 test orbits, 666 points, agreement within **0.12 mm**. The verification runs with every build. Across the whole live catalogue (about 17,000 satellites) it also matches Vallado's reference code, via the Python `sgp4` package, to within a millimetre for nearly every satellite a week out. In practice, accuracy is limited by the public elements themselves: about a kilometre at epoch, growing by a few kilometres a day.
