@@ -37,6 +37,9 @@ Satellites often transmit in several bands. By default each station budgets ever
 ### Share a scenario
 One link carries what's on screen (satellites, your stations and their bands, your downlinks, the time and the camera) and each satellite's orbit as it was. The recipient can watch it with today's orbits or **replay it exactly as sent**, and save what they like. Signed in, you get short links too.
 
+### See who manoeuvred
+The **[manoeuvres page](https://groundsat.com/maneuvers)** lists orbit changes found in the public orbital elements over the last 30 days: altitude raises and lowers, plane changes and shape changes, with the smallest Δv that explains each one and a confidence. Updated about every 6 hours; estimates, not operator data.
+
 ### Use it without internet
 A standalone copy runs on any computer with [Node.js](https://nodejs.org) and nothing else: no install, no internet, nothing sent anywhere.
 
